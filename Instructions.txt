@@ -1,0 +1,51 @@
+Sudo apt install update
+
+Sudo apt install upgrade
+
+Pip3 install notebook
+
+Jupyter --version
+
+jupyter notebook
+
+
+
+
+Alternative to pip3 install notebook
+
+python3 -m notebook
+
+
+
+
+Pip3 install tensorflow
+
+Pip3 install torch
+
+
+
+
+Linux:
+Download CUDA Toolkit:
+Go to the NVIDIA CUDA Toolkit download page: NVIDIA CUDA Toolkit Downloads.
+Select your operating system (Linux).
+Choose the CUDA version you want to install.
+Download the runfile installer.
+Run the Installer:
+Open a terminal.
+Navigate to the directory where the installer is downloaded.
+Make the installer executable: chmod +x cuda_installer_file_name.run
+Run the installer: sudo ./cuda_installer_file_name.run
+Follow the on-screen instructions. Make sure to select all components you need, including the compiler (nvcc).
+Environment Variables:
+After installation, CUDA typically updates the PATH variable automatically. If not, you might need to update it manually. The bin directory contains nvcc.
+
+
+
+using nvidia-smi command
+
+
+
+Alternative to this
+
+gcc program.cpp lgomp -o pr
